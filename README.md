@@ -1,7 +1,7 @@
 # Rick And Morty
 
 
-> A Rick and Morty app to practice and improve the use of graphQL in [The Rick and Morty API](https://rickandmortyapi.com) and other features.
+> A Rick and Morty app to practice and improve my graphQL skills using [The Rick and Morty API](https://rickandmortyapi.com) and other features.
 
 
 ![Android_Emulator_-_Pixel_4_API_31_5554_2023-01-07_00-33-17_AdobeExpress (1)](https://user-images.githubusercontent.com/64710438/211129725-31303212-362e-4e3b-bce7-6a3a8a264e93.gif)
