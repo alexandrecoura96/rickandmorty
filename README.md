@@ -25,7 +25,7 @@ The project is still under development and the next updates will focus on the fo
 
 ## 🚀 Installing Rick And Morty
 
-To install rickandmorty, follow these steps:
+To install rickandmorty, follow this step:
 
 ```
 yarn
@@ -33,7 +33,7 @@ yarn
 
 ## ☕ Using Rick And Morty
 
-To use rickandmorty, follow these steps:
+To use rickandmorty, follow this step:
 
 ```
 yarn start
