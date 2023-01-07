@@ -21,6 +21,7 @@ export const Title = styled.Text`
   font-size: ${RFValue(16)}px;
   color: #000;
   font-weight: bold;
+  flex: 1;
 `;
 
 export const DescriptionWrapper = styled.View`
