@@ -20,12 +20,12 @@ The project is still under development and the next updates will focus on the fo
 - [ ] Review typings
 - [ ] Make the code as clean as possible
 - [ ] Design refactor
-- [ ] Publishing on expo
+- [ ] Publish on expo
 
 
 ## 🚀 Installing Rick And Morty
 
-Para instalar o rickandmorty, siga estas etapas:
+To install rickandmorty, follow these steps:
 
 ```
 yarn
@@ -33,7 +33,7 @@ yarn
 
 ## ☕ Using Rick And Morty
 
-Para usar rickandmorty, siga estas etapas:
+To use rickandmorty, follow these steps:
 
 ```
 yarn start
