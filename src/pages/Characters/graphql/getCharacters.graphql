@@ -1,0 +1,27 @@
+query Characters($page: Int) {
+  characters(page: $page) {
+    results {
+      id
+      image
+      name
+      status
+      gender
+      episode {
+        id
+        name
+        air_date
+        episode
+        created
+      }
+      origin {
+        name
+      }
+      species
+    }
+    info {
+      next
+      count
+      pages
+    }
+  }
+}

@@ -1,0 +1,11 @@
+schema: "https://rickandmortyapi.com/graphql"
+documents:
+  - "src/**/*.graphql"
+generates:
+  src/graphql/__generated__/graphql.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
+    config:
+      withRefetchFn: true
