@@ -19,14 +19,14 @@ export const Container = styled.TouchableOpacity`
   justify-content: space-between;
   border-radius: ${RFValue(16)}px;
   background-color: #fff;
-  padding: 8px;
+  padding: ${RFValue(8)}px;
 `;
 
 export const CharacterImage = styled.Image.attrs({
   resizeMode: "cover",
 })`
-  width: 150px;
-  height: 140px;
+  width: ${RFValue(150)}px;
+  height: ${RFValue(140)}px;
   border-top-left-radius: ${RFValue(16)}px;
   border-bottom-left-radius: ${RFValue(16)}px;
 `;
@@ -45,13 +45,13 @@ export const Name = styled.Text`
 export const OriginLabel = styled.Text`
   margin-top: ${RFValue(8)}px;
   font-weight: 500;
-  font-size: 12px;
+  font-size: ${RFValue(12)}px;
   color: #808080;
 `;
 
 export const Origin = styled.Text`
   font-weight: 500;
-  font-size: 14px;
+  font-size: ${RFValue(14)}px;
   color: #000;
 `;
 
@@ -70,7 +70,7 @@ export const StatusWrapper = styled.View`
 export const StatusColor = styled.View<IStatus>`
   height: ${RFValue(8)}px;
   width: ${RFValue(8)}px;
-  border-radius: 4px;
+  border-radius: ${RFValue(4)}px;
 
   ${(props) =>
     props.status === "Alive" &&
