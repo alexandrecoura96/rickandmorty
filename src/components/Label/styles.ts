@@ -5,9 +5,9 @@ export const Container = styled.View`
   background-color: transparent;
   justify-content: space-between;
   flex-direction: row;
-  padding: 16px;
+  padding: ${RFValue(16)}px;
   border-color: #fff;
-  border-width: 1px;
+  border-width: ${RFValue(1)}px;
 `;
 
 export const Title = styled.Text`
