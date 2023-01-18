@@ -15,7 +15,7 @@ export const Container = styled.TouchableOpacity`
   justify-content: space-between;
   border-radius: ${RFValue(16)}px;
   background-color: #fff;
-  padding: ${RFValue(24)}px ${RFValue(8)}px;
+  padding: ${RFValue(24)}px ${RFValue(16)}px;
 `;
 export const Title = styled.Text`
   font-size: ${RFValue(16)}px;
